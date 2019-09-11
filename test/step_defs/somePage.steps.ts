@@ -1,6 +1,6 @@
 import * as dotenv from "dotenv";
 import { defineFeature, loadFeature } from "jest-cucumber";
-import { Browser, } from "../lib" 
+import { Browser, } from "../../lib" 
 import { AllPages } from "../page_objects";
 
 dotenv.config();
@@ -22,7 +22,7 @@ defineFeature(someFeature, test => {
 
     test("Some feature", ({ given, and, when, then }) => {
         given("I am on some page", async () => {
-            await pages.homePage.navigate();
+
         });
 
         and("I do something", async () => {
