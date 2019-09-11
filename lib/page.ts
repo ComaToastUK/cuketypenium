@@ -1,4 +1,4 @@
-import { Browser, WaitCondition } from "./";
+import { Browser, WaitCondition } from ".";
 
 export interface NewablePage<T extends Page> {
     new(browser: Browser): T;

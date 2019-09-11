@@ -1,6 +1,6 @@
 import 'chromedriver';
 import { Builder, ThenableWebDriver, By, WebElementPromise } from 'selenium-webdriver';
-import { WaitCondition } from "./";
+import { WaitCondition } from ".";
 
 export class Browser {
     private driver: ThenableWebDriver;

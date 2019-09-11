@@ -1,4 +1,4 @@
-import { WebComponent } from "./";
+import { WebComponent } from ".";
 
 class WebComponentEnsurer {
     constructor(private component: WebComponent) {
