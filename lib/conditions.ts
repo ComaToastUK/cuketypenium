@@ -1,4 +1,4 @@
-import { Browser, WebComponent, NewablePage, Page } from "./";
+import { Browser, WebComponent, NewablePage, Page } from ".";
 
 export type WaitCondition = (browser: Browser) => Promise<boolean>;
 
